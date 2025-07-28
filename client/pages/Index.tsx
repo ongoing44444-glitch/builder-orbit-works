@@ -1,4 +1,4 @@
-import DashboardLayout from "@/components/DashboardLayout";
+import DashboardLayout from "../components/DashboardLayout";
 import { Package, Users, DollarSign, TrendingUp, AlertTriangle } from "lucide-react";
 
 const stats = [
