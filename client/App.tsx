@@ -3,6 +3,8 @@ import Index from "./pages/Index";
 import Materials from "./pages/Materials";
 import Clients from "./pages/Clients";
 import Inventory from "./pages/Inventory";
+import Analytics from "./pages/Analytics";
+import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 import "./global.css";
 
@@ -14,6 +16,8 @@ function App() {
         <Route path="/materials" element={<Materials />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/inventory" element={<Inventory />} />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/settings" element={<Settings />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
